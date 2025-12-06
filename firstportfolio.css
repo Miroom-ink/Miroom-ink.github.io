@@ -242,7 +242,7 @@ img{
 }
 
 .L{
-left: 100px;
+left: calc(100% - 370px);
 right: 120px;
 }
 
