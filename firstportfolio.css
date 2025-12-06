@@ -1,0 +1,391 @@
+/* 기본세팅 */
+body {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.uppercontainerof3>p {
+    margin-top: 0;
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+:root {
+    --maincol3: rgb(74, 98, 255);
+}
+
+.deletetopmargin{margin-top: 0;}
+
+.deletebottommargin{margin-bottom: 0;}
+
+/* 랜딩페이지 포 앱스 */
+.LPFA{
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.bigdiv1 {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(rgb(69, 150, 255), rgb(56, 0, 146));
+    color: white;
+}
+
+.leftof1 {
+
+    width: 40%;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.rightof1 {
+    width: 60%;
+}
+
+#phone {
+    position: absolute;
+    bottom: 0;
+    width: 300px;
+    right: 50px;
+
+}
+
+button {
+    border: 0;
+    padding: 15px;
+    background-color: rgb(0, 6, 74);
+    color: rgb(236, 241, 254);
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all 0.5s;
+}
+
+/* 퍼펙트 타이밍 */
+
+.bigdiv2 {
+    text-align: center;
+    background-color: rgb(236, 241, 254);
+    height: 160px;
+    padding-top: 30px;
+}
+
+button:hover {
+    cursor: pointer;
+    color: rgb(0, 6, 74);
+    background-color: rgb(236, 241, 254);
+    border: 1px solid rgb(0, 6, 74);
+}
+
+/* 왓 위 오퍼 */
+
+.bigdiv3 {
+
+    text-align: center;
+    background-color: var(--maincol3);
+    color: white;
+    padding-top: 10px;
+}
+
+.fa-solid{
+    width: 40px;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    padding-top: 12px;
+    box-sizing: border-box;
+    scale: 200%;
+    color: var(--maincol3);
+    position: relative;
+    top: -10px;
+}
+
+.containerof3 {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.uppercontainerof3 {
+    padding-top: 10px;
+}
+
+/* 포토폴리오 */
+
+img{
+    height: 270px;
+    
+}
+
+.bigdiv4{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.containerof4{
+    margin-left: 10px;
+}
+.div4photo{
+    float: left;
+    width: 50%; /* 약 463px */
+    height: 270px;
+    position: relative;
+    bottom: 0;
+}
+
+/* 4- 오버레이 */
+
+.overlay{
+    position: absolute;
+    height: 270px;
+    width: 405px;
+    bottom: 0px;
+    right: 0px;
+
+    background-color: rgba(0, 0, 0, 0);
+    transition: all 0.5s;
+    border: 0px solid white;
+    z-index: 5;
+    box-sizing: border-box;
+}
+
+
+
+.LPOL{
+ bottom: 0px;
+    right: 0px;   
+}
+
+.WPOL{
+    bottom: 0px;
+    left: 0px;   
+}
+
+.SBOL{
+ top: 0;
+    right: 0px;   
+}
+
+.YSOL{
+    top: 0;
+   left: 0px;   
+}
+.LP:hover{
+    .LPOL{
+        border: 15px solid white;
+
+    }
+}
+
+.WP:hover{
+    .WPOL{
+        border: 15px solid white;
+
+    }
+}
+
+.SB:hover{
+    .SBOL{
+        border: 15px solid white;
+
+    }
+}
+
+.YS:hover{
+    .YSOL{
+        border: 15px solid white;
+
+    }
+}
+
+.imgofdiv4{
+    position: absolute;
+    filter: brightness(60%);   
+    z-index: 4; 
+}
+
+.first-img{
+    bottom: 0;
+    right: 0;
+}
+
+.second-img{
+    bottom: 0;
+    left: 0;
+}
+
+.third-img{
+    top: 0;
+    right: 0;
+}
+
+.fourth-img{
+    top: 0;
+    left: 0;
+}
+
+.innerimage{
+    position: absolute;
+    z-index: 6;
+    text-align: left;
+    color: white;
+    top: 120px;
+    
+}
+
+.L{
+left: 100px;
+right: 120px;
+}
+
+.R{
+left: 50px;
+right: 170px;
+}
+
+.stationarytitle{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+
+/* 푸터 */
+
+.footer{
+    clear: both;
+    margin-top: 100px;
+    background-color: rgb(20, 25, 48);
+    width: 100%;
+    height: 500px;
+    padding: 30px;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+}
+
+.footertitle{
+    font-size: 30px;
+    
+}
+
+.fa-brands {
+    width: 40px;
+    background-color: var(--maincol3);
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    padding-top: 7px;
+    box-sizing: border-box;
+    scale: 200%;
+    color: white;
+    position: relative;
+    top: -10px;
+}
+
+.fa-brands:hover{
+   color: var(--maincol3); 
+   background-color: white;
+}
+
+.brandscontainer{
+    padding-top: 50px ;
+    clear: both;
+display: flex;
+justify-content: center;
+gap: 100px;
+}
+
+.copyright{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+
+
+/* 모바일화 */
+
+@media screen and (max-width:768px) {
+    /* 첫박스 */
+.bigdiv1{
+    flex-direction:column;
+    display: block;
+    height: 800px;
+}
+
+.leftof1 {
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    height: 400px;
+    text-align: center;
+}
+
+.rightof1 {
+    width: 100%;
+    height: 300px;
+}
+
+#phone{
+    right: calc(50% - 150px);
+
+
+}
+
+/* 두번째박스 */
+.bigdiv2{
+    height: 200px;
+}
+
+/* 세번째박스 */
+
+.containerof3 {
+
+    display:block;
+    justify-content:  unset;
+    padding: 40px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.bigdiv3{
+     padding-top: 40px;
+}
+
+.offer2, .offer3, .offer4{
+    margin-top: 100px;
+}
+
+.offer1{
+    margin-top: 20px;
+}
+
+/* 네번째박스 */
+.div4photo{
+
+    width: 100%; /* 약 463px */
+    height: 270px;
+
+}
+
+.imgofdiv4, .overlay{
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.innerimage{
+    left: calc(50% - 180px);
+    top: 20px;
+    right: calc(50% + 180px);
+}
+
+}
